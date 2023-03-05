@@ -1,4 +1,4 @@
-class Pokemon < Interface
+class Pokemon
   def initialize(name, type1, type2="", hp)
     @name = name
     @type1 = type1
