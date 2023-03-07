@@ -1,9 +1,5 @@
 require_relative('pokemon.rb')
 class Pikachu < Pokemon
-  def initialize(name, type1, type2="", hp)
-    super(name, type1, type2, hp)
-
-  end
 
   def info
     puts @name
